@@ -3,49 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакти | BookWorld</title>
+    <title>Контакти | Moonlight Books Café</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>📚 BookWorld</h1>
+    <div class="logo">
+        ☕📚 Moonlight Books Café
+    </div>
 
     <nav>
         <a href="index.html">Головна</a>
+        <a href="index.html#books">Книги</a>
+        <a href="index.html#genres">Жанри</a>
         <a href="contacts.html">Контакти</a>
     </nav>
 </header>
 
-<section>
-    <h2>Зв’яжіться з нами</h2>
+<section class="hero">
+    <h1>Зв’яжіться з нами</h1>
 
-    <form>
-        <label>Ваше ім'я:</label>
-        <input type="text" placeholder="Введіть ім'я">
-
-        <label>Email:</label>
-        <input type="email" placeholder="Введіть email">
-
-        <label>Повідомлення:</label>
-        <textarea rows="5" placeholder="Ваше повідомлення"></textarea>
-
-        <button type="submit">Надіслати</button>
-    </form>
+    <p>
+        Маєш питання, хочеш порадити книгу
+        або просто поговорити про літературу?
+        Напиши нам ☕📚
+    </p>
 </section>
 
 <section>
     <h2>Наші контакти</h2>
 
-    <ul>
-        <li>📍 Poltava, Україна</li>
-        <li>📞 +380 00 000 00 00</li>
-        <li>✉️ bookworld@gmail.com</li>
-    </ul>
+    <div class="day-card">
+        <p><strong>📍 Адреса:</strong> Київ, вул. Книжкова, 17</p>
+        <p><strong>📞 Телефон:</strong> +380 99 123 45 67</p>
+        <p><strong>✉️ Email:</strong> moonlightbooks@gmail.com</p>
+        <p><strong>🕒 Години роботи:</strong> 09:00 – 22:00</p>
+    </div>
+</section>
+
+<section>
+    <h2>Форма зворотного зв’язку</h2>
+
+    <div class="day-card">
+        <form>
+
+            <label>Ваше ім’я:</label>
+            <input type="text" placeholder="Введіть ім’я" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Введіть email" required>
+
+            <label>Улюблений жанр:</label>
+            <select>
+                <option>Детектив</option>
+                <option>Фентезі</option>
+                <option>Романтика</option>
+                <option>Фантастика</option>
+                <option>Жахи</option>
+                <option>Класика</option>
+            </select>
+
+            <label>Ваше повідомлення:</label>
+            <textarea rows="6"
+            placeholder="Напишіть повідомлення..."></textarea>
+
+            <button type="submit">
+                Надіслати повідомлення
+            </button>
+
+        </form>
+    </div>
+</section>
+
+<section>
+    <h2>Чому нас люблять?</h2>
+
+    <div class="genres">
+        <div class="genre">☕ Смачна кава</div>
+        <div class="genre">📚 Великий вибір книг</div>
+        <div class="genre">🛋️ Атмосфера затишку</div>
+        <div class="genre">🌙 Вечірні читання</div>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 BookWorld</p>
+    <p>☕ Moonlight Books Café © 2026</p>
 </footer>
 
 </body>
