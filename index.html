@@ -3,194 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parrot Shop</title>
-
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:0;
-            background:#f5f7fb;
-            color:#222;
-        }
-
-        header{
-            background:#4caf50;
-            color:white;
-            padding:20px;
-            text-align:center;
-        }
-
-        nav a{
-            color:white;
-            margin:0 10px;
-            text-decoration:none;
-            font-weight:bold;
-        }
-
-        .hero{
-            background:linear-gradient(120deg,#a8e063,#56ab2f);
-            color:white;
-            text-align:center;
-            padding:60px 20px;
-        }
-
-        .container{
-            max-width:1100px;
-            margin:auto;
-            padding:20px;
-        }
-
-        .cards{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-            gap:20px;
-        }
-
-        .card{
-            background:white;
-            border-radius:12px;
-            padding:15px;
-            box-shadow:0 5px 15px rgba(0,0,0,0.1);
-            text-align:center;
-        }
-
-        .card img{
-            width:100%;
-            height:180px;
-            object-fit:cover;
-            border-radius:10px;
-        }
-
-        .price{
-            font-weight:bold;
-            color:#4caf50;
-        }
-
-        button{
-            background:#4caf50;
-            color:white;
-            border:none;
-            padding:10px 15px;
-            border-radius:8px;
-            cursor:pointer;
-            margin-top:10px;
-        }
-
-        button:hover{
-            background:#3d8b40;
-        }
-
-        ul{
-            list-style:none;
-            padding:0;
-        }
-
-        ul li{
-            padding:5px 0;
-        }
-
-        table{
-            width:100%;
-            border-collapse:collapse;
-            margin-top:10px;
-            background:white;
-        }
-
-        table th, table td{
-            border:1px solid #ddd;
-            padding:10px;
-            text-align:center;
-        }
-
-        footer{
-            text-align:center;
-            padding:15px;
-            background:#222;
-            color:white;
-            margin-top:30px;
-        }
-    </style>
+    <title>Crimson Detective Agency</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>🦜 Parrot Shop</h1>
-    <p>Магазин екзотичних папуг</p>
+    <h1>Crimson Detective Agency</h1>
     <nav>
-        <a href="#">Головна</a>
-        <a href="#">Контакти</a>
+        <a href="index.html">Головна</a>
+        <a href="contacts.html">Контакти</a>
     </nav>
 </header>
 
 <section class="hero">
-    <h2>Знайди свого ідеального папугу 🐦</h2>
-    <p>Красиві, розумні та дружні птахи для твого дому</p>
+    <h2>Таємниці не ховаються вічно</h2>
+    <p>
+        Наше детективне агентство допомагає знаходити правду, 
+        розкривати загадки та вести найскладніші розслідування.
+    </p>
 </section>
 
-<section class="container">
+<section>
+    <h2>Наші послуги</h2>
 
-    <h2>Популярні папуги</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1544923408-75c5cef46f14?q=80&w=800" alt="Ара">
-            <h3>Ара</h3>
-            <p>Великий, яскравий та дуже розумний папуга.</p>
-            <p class="price">50 000 грн</p>
-            <button type="button">Купити</button>
-        </div>
-
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1520301255226-bf5f144451c1?q=80&w=800" alt="Корелла">
-            <h3>Корелла</h3>
-            <p>Ніжний та дружній папуга для сім’ї.</p>
-            <p class="price">800 грн</p>
-            <button type="button">Купити</button>
-        </div>
-
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?q=80&w=800" alt="Хвилястий папуга">
-            <h3>Хвилястий папуга</h3>
-            <p>Активний та веселий маленький друг.</p>
-            <p class="price">1 200 грн</p>
-            <button type="button">Купити</button>
-        </div>
-
-    </div>
-
-    <h2>Чому обирають нас?</h2>
     <ul>
-        <li>✔ Здорові та доглянуті птахи</li>
-        <li>✔ Швидка доставка</li>
-        <li>✔ Поради по догляду</li>
+        <li>Приватні розслідування</li>
+        <li>Пошук людей</li>
+        <li>Розкриття шахрайств</li>
+        <li>Консультації</li>
     </ul>
+</section>
 
-    <h2>Топ продажів</h2>
+<section>
+    <h2>Як ми працюємо</h2>
 
-    <table>
+    <ol>
+        <li>Ви залишаєте заявку</li>
+        <li>Ми аналізуємо ситуацію</li>
+        <li>Проводимо розслідування</li>
+        <li>Надаємо звіт</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Ціни на послуги</h2>
+
+    <table border="1">
         <tr>
-            <th>Папуга</th>
-            <th>Популярність</th>
+            <th>Послуга</th>
+            <th>Ціна</th>
         </tr>
+
         <tr>
-            <td>Ара</td>
-            <td>★★★★★</td>
+            <td>Пошук людини</td>
+            <td>3000 грн</td>
         </tr>
+
         <tr>
-            <td>Корелла</td>
-            <td>★★★★☆</td>
+            <td>Приватне розслідування</td>
+            <td>5000 грн</td>
         </tr>
+
         <tr>
-            <td>Хвилястий</td>
-            <td>★★★★☆</td>
+            <td>Консультація</td>
+            <td>1000 грн</td>
         </tr>
     </table>
+</section>
 
+<section>
+    <h2>Корисне посилання</h2>
+    <p>
+        Дізнайтесь більше про професію детектива:
+        <a href="https://uk.wikipedia.org/wiki/Детектив" target="_blank">
+            Wikipedia
+        </a>
+    </p>
 </section>
 
 <footer>
-    <p>© 2026 Parrot Shop</p>
+    <p>© 2026 Crimson Detective Agency</p>
 </footer>
 
 </body>
